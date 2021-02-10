@@ -22,33 +22,33 @@ jobs:
         with:
           r-version: ${{ matrix.R }}
           
-      - name: setup pandoc
+      - name: Setup pandoc
         uses: r-lib/actions/setup-pandoc@v1
         
-      - name: install r dependencies
+      - name: Install r dependencies
         run: |
            install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown"))
         shell: Rscript {0}
         
-      - name: load r dependencies
-        run: Rscript -e 'library(dplry); library(readr); library(magrittr); library(ggplot2); library(RcppRoll); library(gghighlight); library(rmarkdown);'
+      - name: Load r dependencies
+        run: Rscript -e 'library(dplyr); library(readr); library(magrittr); library(ggplot2); library(RcppRoll); library(gghighlight); library(rmarkdown);'
 
-      - name: download data from nyt 
+      - name: Download data from nyt 
         run: |
           source('./scripts/download_covid_data_from_nyt.R')
         shell: Rscript {0}
         
-      - name: process data from nyt 
+      - name: Process data from nyt 
         run: |
           source('./scripts/process_covid_data_from_nyt.R')
         shell: Rscript {0}        
         
-      - name: plot data from nty
+      - name: Plot data from nty
         run: |
           source('./scripts/plot_covid_data_from_nyt.R')
         shell: Rscript {0}
         
-      - name: render README
+      - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
 
       - uses: stefanzweifel/git-auto-commit-action@v4
