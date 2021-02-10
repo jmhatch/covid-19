@@ -13,6 +13,7 @@ params:
 ```{r header, results = 'asis'}
 cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on ", params$date, ")\n"))
 ```
+
 ![trends in covid-19 cases by county in U.S. state of massachusetts](./images/ma_county_covid.png)
 
 ## Credits
