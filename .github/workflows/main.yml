@@ -27,10 +27,10 @@ jobs:
         
       - name: install r dependencies
         run: |
-          install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown"))
+           install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown"))
         shell: Rscript {0}
         
-       - name: load r dependencies
+      - name: load r dependencies
         run: Rscript -e 'library(dplry); library(readr); library(magrittr); library(ggplot2); library(RcppRoll); library(gghighlight); library(rmarkdown);'
 
       - name: download data from nyt 
