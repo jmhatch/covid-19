@@ -27,12 +27,9 @@ jobs:
         
       - name: Install r dependencies
         run: |
-           install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown"))
+           install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown", "scales"))
         shell: Rscript {0}
-        
-      - name: Load r dependencies
-        run: Rscript -e 'library(dplyr)' -e 'library(readr)' -e 'library(magrittr)' -e 'library(ggplot2)' -e 'library(RcppRoll)' -e 'library(gghighlight)' -e 'library(rmarkdown)'
-
+  
       - name: Download data from nyt 
         run: |
           source('./scripts/download_covid_data_from_nyt.R')
