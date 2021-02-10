@@ -2,17 +2,18 @@ name: update-covid-19-repo
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master, main ]
   pull_request:
-    branches: [ main ]
+    branches: [ master, main ]
   schedule:
     - cron: '00 23 * * *' # at 23:00
 
 jobs:
   covid-19-update:
-    runs-on: windows-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        os: [windows-latest]
         R: [ '4.0.3' ]
     name: Updating on R ${{ matrix.R }}
     steps:
