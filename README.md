@@ -1,5 +1,13 @@
-Trends in COVID-19 for counties in the U.S. state of Massachusetts
-==================================================================
+    cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on ", params$date, ")\n"))
+
+Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2021-02-10)
+==========================================================================================
 
 ![trends in covid-19 cases by county in U.S. state of
 massachusetts](./images/ma_county_covid.png)
+
+Credits
+-------
+
+Data on COVID-19 provided by The New York Times. Many thanks to the New
+York Times for making this invaluable resource publicly available!
