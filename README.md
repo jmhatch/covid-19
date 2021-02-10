@@ -1,5 +1,3 @@
-    cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on ", params$date, ")\n"))
-
 Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2021-02-10)
 ==========================================================================================
 
