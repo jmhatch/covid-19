@@ -16,7 +16,7 @@ jobs:
         R: [ '4.0.3' ]
     name: R ${{ matrix.R }} sample
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
         with:
