@@ -1,0 +1,44 @@
+jobs:
+  covid-19-update:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        R: [ '4.0.3' ]
+    name: R ${{ matrix.R }} sample
+    steps:
+      - uses: actions/checkout@master
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: ${{ matrix.R }}
+          
+      - name: setup pandoc
+        uses: r-lib/actions/setup-pandoc@v1
+        
+      - name: install r dependencies
+        run: |
+          install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown"))
+        shell: Rscript {0}
+        
+      - name: download data from nyt 
+        run: |
+          source('./scripts/download_covid_data_from_nyt.R')
+        shell: Rscript {0}
+        
+      - name: process data from nyt 
+        run: |
+          source('./scripts/process_covid_data_from_nyt.R')
+        shell: Rscript {0}        
+        
+      - name: plot data from nty
+        run: |
+          source('./scripts/plot_covid_data_from_nyt.R')
+        shell: Rscript {0}
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '00 23 * * *' # at 23:00
