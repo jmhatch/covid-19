@@ -1,13 +1,13 @@
 ---
 title: "README"
-author: "Joshua Hatch"
+author: "jmhatch"
 output: md_document
 params:
   date: !r Sys.Date()
 ---
 
 ```{r setup, include = FALSE}
-  knitr::opts_chunk$set(echo = params$date)
+  knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r header, results = 'asis'}
