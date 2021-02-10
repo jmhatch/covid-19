@@ -30,7 +30,7 @@ jobs:
           install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown"))
         shell: Rscript {0}
         
-       - name: install r dependencies
+       - name: load r dependencies
         run: |
           library(dplry); library(readr); library(magrittr); library(ggplot2); library(RcppRoll); library(gghighlight); library(rmarkdown);
         shell: Rscript {0}       
