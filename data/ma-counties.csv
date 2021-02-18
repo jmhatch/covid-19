@@ -3925,6 +3925,7 @@
 2021-02-16,"Plymouth","Massachusetts","25023",38832,1249,89,1009
 2021-02-16,"Suffolk","Massachusetts","25025",75743,1654,106,1645
 2021-02-16,"Worcester","Massachusetts","25027",63240,1961,112,1453
+<<<<<<< HEAD
 2021-02-17,"Barnstable","Massachusetts","25001",9665,384,21,257
 2021-02-17,"Berkshire","Massachusetts","25003",4762,244,16,87
 2021-02-17,"Bristol","Massachusetts","25005",54252,1448,140,1241
@@ -3937,3 +3938,5 @@
 2021-02-17,"Plymouth","Massachusetts","25023",38939,1256,107,982
 2021-02-17,"Suffolk","Massachusetts","25025",75876,1659,133,1547
 2021-02-17,"Worcester","Massachusetts","25027",63354,1973,114,1292
+=======
+>>>>>>> 173fa245c6fb2feaf183b7b6af1f74f726d262e2
