@@ -5,7 +5,7 @@ Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2
 massachusetts](./images/ma_county_covid.png)
 
 Bristol County
-==============
+--------------
 
 ![trends in covid-19 cases for bristol county in U.S. state of
 massachusetts](./images/bristol_county_covid.png)
