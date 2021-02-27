@@ -1,4 +1,4 @@
-Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2021-02-26)
+Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2021-02-27)
 ==========================================================================================
 
 ![trends in covid-19 cases by county in U.S. state of
