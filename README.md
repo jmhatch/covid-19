@@ -7,12 +7,24 @@ massachusetts](./images/ma_county_covid.png)
 Bristol County
 --------------
 
-Log | Linear |  
-![trends in covid-19 cases for bristol county in the U.S. state of
-massachusettson on a log scale](./images/bristol_county_covid_log.png) |
-![trends in covid-19 cases for bristol county in the U.S. state of
-massachusetts on a linear
-scale](./images/bristol_county_covid_linear.png) |
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Log</th>
+<th>Linear</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="./images/bristol_county_covid_log.png" alt="trends in covid-19 cases for bristol county in the U.S. state of massachusettson on a log scale" /></td>
+<td><img src="./images/bristol_county_covid_linear.png" alt="trends in covid-19 cases for bristol county in the U.S. state of massachusetts on a linear scale" /></td>
+</tr>
+</tbody>
+</table>
 
 Credits
 -------
