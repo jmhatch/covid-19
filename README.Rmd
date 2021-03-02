@@ -18,7 +18,8 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 
 ## Bristol County
 
-| Log        | Linear           | 
+| Log  | Linear |
+| ------------- | ------------- | 
 | ![trends in covid-19 cases for bristol county in the U.S. state of massachusettson on a log scale](./images/bristol_county_covid_log.png) | ![trends in covid-19 cases for bristol county in the U.S. state of massachusetts on a linear scale](./images/bristol_county_covid_linear.png) |
 
 ## Credits
