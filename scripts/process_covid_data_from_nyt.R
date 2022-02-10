@@ -2,8 +2,8 @@
 library(dplyr)
 library(magrittr)
 
-# load NYT data
-nyt_data = readr::read_csv('./data/us-counties.csv')
+# download county-level aggregated data from NY Times
+nyt_data = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv' %>% url() %>% readr::read_csv()
 
 # filter to get Massachusetts data
 ma_nyt = nyt_data %>% dplyr::filter(state == 'Massachusetts')

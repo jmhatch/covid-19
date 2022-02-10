@@ -30,11 +30,6 @@ jobs:
         run: |
            install.packages(c("dplyr", "readr", "magrittr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown", "scales"))
         shell: Rscript {0}
-  
-      - name: Download data from nyt 
-        run: |
-          source('./scripts/download_covid_data_from_nyt.R')
-        shell: Rscript {0}
         
       - name: Process data from nyt 
         run: |
