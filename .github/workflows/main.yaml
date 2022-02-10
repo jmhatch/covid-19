@@ -18,7 +18,7 @@ jobs:
     name: Updating on R ${{ matrix.R }}
     steps:
       - uses: actions/checkout@v2
-      - name: Setup R
+      - name: Setup r
         uses: r-lib/actions/setup-r@v1
         with:
           r-version: ${{ matrix.R }}
@@ -36,7 +36,7 @@ jobs:
           source('./scripts/process_covid_data_from_nyt.R')
         shell: Rscript {0}        
         
-      - name: Plot data from nty
+      - name: Plot data from nyt
         run: |
           source('./scripts/plot_covid_data_from_nyt.R')
         shell: Rscript {0}
