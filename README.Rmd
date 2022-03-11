@@ -8,6 +8,9 @@ params:
 
 ```{r setup, include = FALSE}
   knitr::opts_chunk$set(echo = FALSE)
+
+# load libraries
+library(dplyr)
 ```
 
 ```{r header, results = 'asis'}
@@ -16,74 +19,35 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 
 ![trends in covid-19 cases by county in the U.S. state of massachusetts](./images/ma_county_covid.png)
 
-## Barnstable County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for barnstable county in the U.S. state of massachusettson on a log scale](./images/barnstable_county_covid_log.png) | ![trends in covid-19 cases for barnstable county in the U.S. state of massachusetts on a linear scale](./images/barnstable_county_covid_linear.png) |
+```{r county, results = 'asis'}
+# ma counties
+ma_counties = c('Barnstable', 'Berkshire', 'Bristol', 'Essex', 'Franklin', 'Hampden', 'Hampshire', 'Middlesex', 'Norfolk', 'Plymouth', 'Suffolk', 'Worcester')
 
-## Berkshire County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for berkshire county in the U.S. state of massachusettson on a log scale](./images/berkshire_county_covid_log.png) | ![trends in covid-19 cases for berkshire county in the U.S. state of massachusetts on a linear scale](./images/berkshire_county_covid_linear.png) |
+# load cdc community level data
+cdc_ma = read.csv('./data/cdc-community-ma-counties.csv', header = TRUE)
 
-## Bristol County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for bristol county in the U.S. state of massachusettson on a log scale](./images/bristol_county_covid_log.png) | ![trends in covid-19 cases for bristol county in the U.S. state of massachusetts on a linear scale](./images/bristol_county_covid_linear.png) |
+# function to print out md
+md_txt = function(i) {
+  
+    # filter data for county
+    cty_cdc = cdc_ma %>% filter(county == paste0(i, ' County, MA')) %>% pull(covid.19_community_level)
+    
+    # set color based on community level
+    cty_level = case_when(cty_cdc == 'Low' ~ 'success', 
+                          cty_cdc == 'Medium' ~ 'important',
+                          cty_cdc == 'High' ~ 'critical')
+    
+    # md text
+    paste0(
+      '## ', i, ' County ![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level,
+      '\n',
+      '| Log  | Linear |\n',
+      '| ------------- | ------------- |\n',
+      '| ![trends in covid-19 cases for ', tolower(i), ' county in the U.S. state of massachusettson on a log scale](./images/', tolower(i), '_county_covid_log.png) | ![trends in covid-19 cases for ', tolower(i), ' county in the U.S. state of massachusetts on a linear scale](./images/', tolower(i), '_county_covid_linear.png) |\n\n'
+    )
+  
+}
 
-## Essex County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for essex county in the U.S. state of massachusettson on a log scale](./images/essex_county_covid_log.png) | ![trends in covid-19 cases for essex county in the U.S. state of massachusetts on a linear scale](./images/essex_county_covid_linear.png) |
-
-## Franklin County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for franklin county in the U.S. state of massachusettson on a log scale](./images/franklin_county_covid_log.png) | ![trends in covid-19 cases for franklin county in the U.S. state of massachusetts on a linear scale](./images/franklin_county_covid_linear.png) |
-
-## Hampton County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for hampton county in the U.S. state of massachusettson on a log scale](./images/hampton_county_covid_log.png) | ![trends in covid-19 cases for hampton county in the U.S. state of massachusetts on a linear scale](./images/hampton_county_covid_linear.png) |
-
-## Hampshire County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for hampshire county in the U.S. state of massachusettson on a log scale](./images/hampshire_county_covid_log.png) | ![trends in covid-19 cases for hampshire county in the U.S. state of massachusetts on a linear scale](./images/hampshire_county_covid_linear.png) |
-
-## Middlesex County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for middlesex county in the U.S. state of massachusettson on a log scale](./images/middlesex_county_covid_log.png) | ![trends in covid-19 cases for middlesex county in the U.S. state of massachusetts on a linear scale](./images/middlesex_county_covid_linear.png) |
-
-## Norfolk County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for norfolk county in the U.S. state of massachusettson on a log scale](./images/norfolk_county_covid_log.png) | ![trends in covid-19 cases for norfolk county in the U.S. state of massachusetts on a linear scale](./images/norfolk_county_covid_linear.png) |
-
-## Plymouth County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for plymouth county in the U.S. state of massachusettson on a log scale](./images/plymouth_county_covid_log.png) | ![trends in covid-19 cases for plymouth county in the U.S. state of massachusetts on a linear scale](./images/plymouth_county_covid_linear.png) |
-
-## Suffolk County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for suffolk county in the U.S. state of massachusettson on a log scale](./images/suffolk_county_covid_log.png) | ![trends in covid-19 cases for suffolk county in the U.S. state of massachusetts on a linear scale](./images/suffolk_county_covid_linear.png) 
-
-## Worcester County
- 
-| Log  | Linear |
-| ------------- | ------------- | 
-| ![trends in covid-19 cases for worcester county in the U.S. state of massachusettson on a log scale](./images/worcester_county_covid_log.png) | ![trends in covid-19 cases for worcester county in the U.S. state of massachusetts on a linear scale](./images/worcester_county_covid_linear.png) |
+# loop through 
+for(i in ma_counties) cat(md_txt(i))
+```

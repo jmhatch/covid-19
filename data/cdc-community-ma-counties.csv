@@ -1,0 +1,13 @@
+"county","county_fips","state","total_population","health_service_area_number","health_service_area","covid_inpatient_bed_utilization","covid_hospital_admissions_per_100k","covid_cases_per_100k","covid-19_community_level","date_updated"
+"Barnstable County, MA","25001","Massachusetts",NA,NA,NA,"1.40%",4.2,60.57,"Low",2022-03-10
+"Berkshire County, MA","25003","Massachusetts",NA,NA,NA,"3.40%",2.2,114.45,"Low",2022-03-10
+"Bristol County, MA","25005","Massachusetts",NA,NA,NA,"2.20%",4.3,59.27,"Low",2022-03-10
+"Essex County, MA","25009","Massachusetts",NA,NA,NA,"2.00%",3.2,44.23,"Low",2022-03-10
+"Franklin County, MA","25011","Massachusetts",NA,NA,NA,"1.70%",4.8,61.27,"Low",2022-03-10
+"Hampden County, MA","25013","Massachusetts",NA,NA,NA,"3.20%",2.6,67.76,"Low",2022-03-10
+"Hampshire County, MA","25015","Massachusetts",NA,NA,NA,"3.20%",2.6,133.68,"Low",2022-03-10
+"Middlesex County, MA","25017","Massachusetts",NA,NA,NA,"1.40%",4.2,101.82,"Low",2022-03-10
+"Norfolk County, MA","25021","Massachusetts",NA,NA,NA,"1.40%",4.2,60.56,"Low",2022-03-10
+"Plymouth County, MA","25023","Massachusetts",NA,NA,NA,"1.40%",4.2,42.79,"Low",2022-03-10
+"Suffolk County, MA","25025","Massachusetts",NA,NA,NA,"1.40%",4.2,93.79,"Low",2022-03-10
+"Worcester County, MA","25027","Massachusetts",NA,NA,NA,"1.70%",4.8,64.05,"Low",2022-03-10

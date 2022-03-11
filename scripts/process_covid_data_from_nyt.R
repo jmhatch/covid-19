@@ -23,5 +23,5 @@ ma_week %<>% dplyr::filter(!county %in% c('Unknown', 'Dukes', 'Nantucket'))
 # handle 0 new cases
 ma_week %<>% dplyr::filter(week_sum > 0)
 
-## save data
+# save data
 write.csv(ma_week, './data/ma-counties.csv', row.names = FALSE)

@@ -41,6 +41,11 @@ jobs:
           source('./scripts/plot_covid_data_from_nyt.R')
         shell: Rscript {0}
         
+      - name: Process data from cdc 
+        run: |
+          source('./scripts/process_covid_data_from_nyt.R')
+        shell: Rscript {0}  
+        
       - name: Render readme
         run: |
           source('./scripts/update_readme.R')
