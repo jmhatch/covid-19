@@ -1,9 +1,11 @@
-# Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2022-03-11)
+Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2022-03-11)
+==========================================================================================
 
 ![trends in covid-19 cases by county in the U.S. state of
 massachusetts](./images/ma_county_covid.png)
 
-## Barnstable County
+Barnstable County
+-----------------
 
 [![barnstable cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -28,7 +30,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Berkshire County
+Berkshire County
+----------------
 
 [![berkshire cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -53,7 +56,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Bristol County
+Bristol County
+--------------
 
 [![bristol cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -78,7 +82,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Essex County
+Essex County
+------------
 
 [![essex cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -103,7 +108,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Franklin County
+Franklin County
+---------------
 
 [![franklin cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -128,7 +134,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Hampden County
+Hampden County
+--------------
 
 [![hampden cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -153,7 +160,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Hampshire County
+Hampshire County
+----------------
 
 [![hampshire cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -178,7 +186,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Middlesex County
+Middlesex County
+----------------
 
 [![middlesex cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -203,7 +212,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Norfolk County
+Norfolk County
+--------------
 
 [![norfolk cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -228,7 +238,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Plymouth County
+Plymouth County
+---------------
 
 [![plymouth cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -253,7 +264,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Suffolk County
+Suffolk County
+--------------
 
 [![suffolk cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
@@ -278,7 +290,8 @@ on 2022-03-10
 </tbody>
 </table>
 
-## Worcester County
+Worcester County
+----------------
 
 [![worcester cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
