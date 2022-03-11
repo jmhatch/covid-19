@@ -1,9 +1,11 @@
-# Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2022-03-11)
+Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2022-03-11)
+==========================================================================================
 
 ![trends in covid-19 cases by county in the U.S. state of
 massachusetts](./images/ma_county_covid.png)
 
-## Barnstable County \[barnstable cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Barnstable County \[barnstable cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -24,7 +26,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Berkshire County \[berkshire cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Berkshire County \[berkshire cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -45,7 +48,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Bristol County \[bristol cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Bristol County \[bristol cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -66,7 +70,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Essex County \[essex cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Essex County \[essex cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -87,7 +92,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Franklin County \[franklin cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Franklin County \[franklin cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -108,7 +114,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Hampden County \[hampden cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Hampden County \[hampden cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -129,7 +136,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Hampshire County \[hampshire cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Hampshire County \[hampshire cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -150,7 +158,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Middlesex County \[middlesex cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Middlesex County \[middlesex cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -171,7 +180,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Norfolk County \[norfolk cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Norfolk County \[norfolk cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -192,7 +202,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Plymouth County \[plymouth cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Plymouth County \[plymouth cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -213,7 +224,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Suffolk County \[suffolk cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Suffolk County \[suffolk cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
@@ -234,7 +246,8 @@ massachusetts](./images/ma_county_covid.png)
 </tbody>
 </table>
 
-## Worcester County \[worcester cdc community badge\](<https://img.shields.io/badge/CDC%20Community%20Level-Low-success>
+Worcester County \[worcester cdc community badge\](<a href="https://img.shields.io/badge/CDC%20Community%20Level-Low-success" class="uri">https://img.shields.io/badge/CDC%20Community%20Level-Low-success</a>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <table>
 <colgroup>
