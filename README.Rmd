@@ -19,6 +19,9 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 
 ![trends in covid-19 cases by county in the U.S. state of massachusetts](./images/ma_county_covid.png)
 
+## County-level Information
+
+| County | Level | Date Updated |
 ```{r county, results = 'asis'}
 # ma counties
 ma_counties = c('Barnstable', 'Berkshire', 'Bristol', 'Essex', 'Franklin', 'Hampden', 'Hampshire', 'Middlesex', 'Norfolk', 'Plymouth', 'Suffolk', 'Worcester')
@@ -42,12 +45,8 @@ md_txt = function(i) {
     
     # md text
     paste0(
-      '## ', i, ' County\n', 
-      '[![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html) on ', cty_date,
-      '\n\n',
-      '| Log  | Linear |\n',
-      '| ------------- | ------------- |\n',
-      '| ![trends in covid-19 cases for ', tolower(i), ' county in the U.S. state of massachusettson on a log scale](./images/', tolower(i), '_county_covid_log.png) | ![trends in covid-19 cases for ', tolower(i), ' county in the U.S. state of massachusetts on a linear scale](./images/', tolower(i), '_county_covid_linear.png) |\n\n'
+      '| ', i, ' County | ', 
+      '[![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html) | ', cty_date, ' | \n'
     )
   
 }
