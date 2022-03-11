@@ -41,7 +41,7 @@ md_txt = function(i) {
     paste0(
       '## ', i, ' County\n', 
       '![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg)',
-      '\n',
+      '\n\n',
       '| Log  | Linear |\n',
       '| ------------- | ------------- |\n',
       '| ![trends in covid-19 cases for ', tolower(i), ' county in the U.S. state of massachusettson on a log scale](./images/', tolower(i), '_county_covid_log.png) | ![trends in covid-19 cases for ', tolower(i), ' county in the U.S. state of massachusetts on a linear scale](./images/', tolower(i), '_county_covid_linear.png) |\n\n'
