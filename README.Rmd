@@ -40,7 +40,7 @@ md_txt = function(i) {
     # md text
     paste0(
       '## ', i, ' County\n', 
-      '![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level,
+      '![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg)',
       '\n',
       '| Log  | Linear |\n',
       '| ------------- | ------------- |\n',
