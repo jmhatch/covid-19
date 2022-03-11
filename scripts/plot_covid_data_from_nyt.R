@@ -52,11 +52,11 @@ for (i in ma_counties) {
   
     # save plots
     png(file = paste0('./images/', tolower(i), '_county_covid_log.png'),  width = 735, height = 526)
-      print(bristol_plt_log)
+      print(county_plt_log)
     dev.off()
     
     png(file = paste0('./images/', tolower(i), '_county_covid_linear.png'),  width = 735, height = 526)
-      print(bristol_plt_linear)
+      print(county_plt_linear)
     dev.off()
   
 }
