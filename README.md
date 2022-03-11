@@ -7,40 +7,74 @@ massachusetts](./images/ma_county_covid.png)
 County-level Information
 ------------------------
 
-County | Level | Date Updated |  
-Barnstable County | [![barnstable cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Berkshire County | [![berkshire cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Bristol County | [![bristol cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Essex County | [![essex cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Franklin County | [![franklin cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Hampden County | [![hampden cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Hampshire County | [![hampshire cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Middlesex County | [![middlesex cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Norfolk County | [![norfolk cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Plymouth County | [![plymouth cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Suffolk County | [![suffolk cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |  
-Worcester County | [![worcester cdc community
-badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html)
-| 2022-03-10 |
+<table>
+<thead>
+<tr class="header">
+<th>County</th>
+<th>Level</th>
+<th>Date Updated</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Barnstable County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="barnstable cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="even">
+<td>Berkshire County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="berkshire cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="odd">
+<td>Bristol County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="bristol cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="even">
+<td>Essex County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="essex cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="odd">
+<td>Franklin County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="franklin cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="even">
+<td>Hampden County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="hampden cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="odd">
+<td>Hampshire County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="hampshire cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="even">
+<td>Middlesex County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="middlesex cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="odd">
+<td>Norfolk County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="norfolk cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="even">
+<td>Plymouth County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="plymouth cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="odd">
+<td>Suffolk County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="suffolk cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+<tr class="even">
+<td>Worcester County</td>
+<td><a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html"><img src="https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg" alt="worcester cdc community badge" /></a></td>
+<td>2022-03-10</td>
+</tr>
+</tbody>
+</table>
