@@ -32,6 +32,9 @@ md_txt = function(i) {
     # filter data for county
     cty_cdc = cdc_ma %>% filter(county == paste0(i, ' County, MA')) %>% pull(covid.19_community_level)
     
+    # date updated
+    cty_date = cdc_ma %>% filter(county == paste0(i, ' County, MA')) %>% pull(date_updated)
+    
     # set color based on community level
     cty_level = case_when(cty_cdc == 'Low' ~ 'success', 
                           cty_cdc == 'Medium' ~ 'important',
@@ -40,7 +43,7 @@ md_txt = function(i) {
     # md text
     paste0(
       '## ', i, ' County\n', 
-      '![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg)',
+      '![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg) on ', cty_date,
       '\n\n',
       '| Log  | Linear |\n',
       '| ------------- | ------------- |\n',

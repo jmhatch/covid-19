@@ -9,6 +9,7 @@ Barnstable County
 
 ![barnstable cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -34,6 +35,7 @@ Berkshire County
 
 ![berkshire cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -59,6 +61,7 @@ Bristol County
 
 ![bristol cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -84,6 +87,7 @@ Essex County
 
 ![essex cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -109,6 +113,7 @@ Franklin County
 
 ![franklin cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -134,6 +139,7 @@ Hampden County
 
 ![hampden cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -159,6 +165,7 @@ Hampshire County
 
 ![hampshire cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -184,6 +191,7 @@ Middlesex County
 
 ![middlesex cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -209,6 +217,7 @@ Norfolk County
 
 ![norfolk cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -234,6 +243,7 @@ Plymouth County
 
 ![plymouth cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -259,6 +269,7 @@ Suffolk County
 
 ![suffolk cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
@@ -284,6 +295,7 @@ Worcester County
 
 ![worcester cdc community
 badge](https://img.shields.io/badge/CDC%20Community%20Level-Low-success.svg)
+on 2022-03-10
 
 <table>
 <colgroup>
