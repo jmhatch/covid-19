@@ -22,6 +22,7 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 ## County-level Information
 
 | County | Level | Date Updated |
+| -------- | -------- | ------- |
 ```{r county, results = 'asis'}
 # ma counties
 ma_counties = c('Barnstable', 'Berkshire', 'Bristol', 'Essex', 'Franklin', 'Hampden', 'Hampshire', 'Middlesex', 'Norfolk', 'Plymouth', 'Suffolk', 'Worcester')
