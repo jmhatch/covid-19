@@ -59,4 +59,8 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 ```{r county, results = 'asis'}
 # loop through 
 for(i in ma_counties) cat(md_txt(i))
+
+Credits
+-------
+Data on COVID-19 provided by The New York Times and the CDC. Many thanks to the New York Times and the CDC for making this invaluable resource publicly available! Inspiration for this example was taken from [MinutePhysics](https://www.youtube.com/watch?v=54XLXg4fYsc) and [Aatish Bhatia](http://aatishb.com/covidtrends/).
 ```
