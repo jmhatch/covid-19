@@ -97,3 +97,12 @@ County-level Information
 </tr>
 </tbody>
 </table>
+
+Credits
+-------
+
+Data on COVID-19 provided by The New York Times and the CDC. Many thanks
+to the New York Times and the CDC for making this invaluable resource
+publicly available! Inspiration for this example was taken from
+[MinutePhysics](https://www.youtube.com/watch?v=54XLXg4fYsc) and [Aatish
+Bhatia](http://aatishb.com/covidtrends/).
