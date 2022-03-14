@@ -22,7 +22,7 @@ cdc_tran_ma = cdc_tran_data %>% filter(state_name == 'Massachusetts' & report_da
 cdc_tran_data %<>% dplyr::filter(!county_name %in% c('Dukes County', 'Nantucket County'))
 
 # combine county-level data
-cdc_county = cdc_comm_ma %>% dplyr::select(state, county, date_updated, `covid-19_community_level`) %>% rename(date_community = date_updated) %>% left_join(cdc_tran_ma %>% dplyr::select(state_name, county_name, report_date, community_transmission_level) %>% rename(state = state_name, county = county_name, date_transmission = report_date), by = c('state', 'county'))
+cdc_county = cdc_comm_ma %>% dplyr::select(state, state_abb, county, date_updated, `covid-19_community_level`) %>% rename(date_community = date_updated) %>% left_join(cdc_tran_ma %>% dplyr::select(state_name, county_name, report_date, community_transmission_level) %>% rename(state = state_name, county = county_name, date_transmission = report_date), by = c('state', 'county'))
 
 # save data
 write.csv(cdc_county, './data/cdc-ma-counties.csv', row.names = FALSE)

@@ -38,9 +38,9 @@ md_txt = function(i) {
     
     # md text
     paste0(
-      '| ', cty_cdc$state, ' | ', cty_cdc$county, ' | ', 
-      '[![', tolower(cty_cdc$county), ' cdc community badge](https://img.shields.io/badge/COVID-19%20Community%20Level-', cty_cdc$covid.19_community_level, '-', cty_cdc$community_level, '.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html) (updated on ', cty_cdc$date_community,') | ',
-      '[![', tolower(cty_cdc$county), ' cdc transmission badge](https://img.shields.io/badge/CDC%2Transmission%20Level-', str_to_title(cty_cdc$community_transmission_level), '-', cty_cdc$transmission_level, '.svg)](https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=Massachusetts&data-type=Risk) (updated on ', cty_cdc$date_transmission,') |\n'
+      '| ', cty_cdc$state_abb, ' | ', cty_cdc$county, ' | ', 
+      '[![', tolower(i), ' cdc community badge](https://img.shields.io/badge/COVID--19%20Community%20Level-', cty_cdc$covid.19_community_level, '-', cty_cdc$community_level, '.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html) (updated on ', cty_cdc$date_community,') | ',
+      '[![', tolower(cty_cdc$county), ' cdc transmission badge](https://img.shields.io/badge/CDC%20Transmission%20Level-', str_to_title(cty_cdc$community_transmission_level), '-', cty_cdc$transmission_level, '.svg)](https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=Massachusetts&data-type=Risk) (updated on ', cty_cdc$date_transmission,') |\n'
     )
   
 }
