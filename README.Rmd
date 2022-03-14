@@ -7,10 +7,43 @@ params:
 ---
 
 ```{r setup, include = FALSE}
-  knitr::opts_chunk$set(echo = FALSE)
+# setup
+knitr::opts_chunk$set(echo = FALSE)
 
 # load libraries
 library(dplyr)
+library(magrittr)
+library(stringr)
+
+# ma counties
+ma_counties = c('Barnstable', 'Berkshire', 'Bristol', 'Essex', 'Franklin', 'Hampden', 'Hampshire', 'Middlesex', 'Norfolk', 'Plymouth', 'Suffolk', 'Worcester')
+
+# load cdc community level data
+cdc_ma = read.csv('./data/cdc-ma-counties.csv', header = TRUE)
+
+# function to print out md table
+md_txt = function(i) {
+  
+    # filter data for county
+    cty_cdc = cdc_ma %>% filter(county == paste0(i, ' County'))
+    
+    # set color based on community level
+    cty_cdc %<>% mutate(community_level = case_when(covid.19_community_level == 'Low' ~ 'success', 
+                                                    covid.19_community_level == 'Medium' ~ 'important', 
+                                                    covid.19_community_level== 'High' ~ 'critical'), 
+                        transmission_level = case_when(community_transmission_level == 'low' ~ 'informational', 
+                                                       community_transmission_level == 'moderate' ~ 'yellow',
+                                                       community_transmission_level == 'substantial' ~ 'important',
+                                                       community_transmission_level == 'high' ~ 'critical'))
+    
+    # md text
+    paste0(
+      '| ', cty_cdc$state, ' | ', cty_cdc$county, ' | ', 
+      '[![', tolower(cty_cdc$county), ' cdc community badge](https://img.shields.io/badge/COVID-19%20Community%20Level-', cty_cdc$covid.19_community_level, '-', cty_cdc$community_level, '.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html) (updated on ', cty_cdc$date_community,') | ',
+      '[![', tolower(cty_cdc$county), ' cdc transmission badge](https://img.shields.io/badge/CDC%2Transmission%20Level-', str_to_title(cty_cdc$community_transmission_level), '-', cty_cdc$transmission_level, '.svg)](https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=Massachusetts&data-type=Risk) (updated on ', cty_cdc$date_transmission,') |\n'
+    )
+  
+}
 ```
 
 ```{r header, results = 'asis'}
@@ -21,37 +54,9 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 
 ## County-level Information
 
-| County | Level | Date Updated |
-| :--- | :---: | :---: |
+| State | County | COVID-19 Community Level | Transmission Level |
+| :---: | :---: | :---: | :---: |
 ```{r county, results = 'asis'}
-# ma counties
-ma_counties = c('Barnstable', 'Berkshire', 'Bristol', 'Essex', 'Franklin', 'Hampden', 'Hampshire', 'Middlesex', 'Norfolk', 'Plymouth', 'Suffolk', 'Worcester')
-
-# load cdc community level data
-cdc_ma = read.csv('./data/cdc-community-ma-counties.csv', header = TRUE)
-
-# function to print out md
-md_txt = function(i) {
-  
-    # filter data for county
-    cty_cdc = cdc_ma %>% filter(county == paste0(i, ' County, MA')) %>% pull(covid.19_community_level)
-    
-    # date updated
-    cty_date = cdc_ma %>% filter(county == paste0(i, ' County, MA')) %>% pull(date_updated)
-    
-    # set color based on community level
-    cty_level = case_when(cty_cdc == 'Low' ~ 'success', 
-                          cty_cdc == 'Medium' ~ 'important',
-                          cty_cdc == 'High' ~ 'critical')
-    
-    # md text
-    paste0(
-      '| ', i, ' County | ', 
-      '[![', tolower(i), ' cdc community badge](https://img.shields.io/badge/CDC%20Community%20Level-', cty_cdc, '-', cty_level, '.svg)](https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html) | ', cty_date, ' | \n'
-    )
-  
-}
-
 # loop through 
 for(i in ma_counties) cat(md_txt(i))
 ```
