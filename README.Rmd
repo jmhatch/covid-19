@@ -54,7 +54,7 @@ cat(paste0("# Trends in COVID-19 for counties in the U.S. state of Massachusetts
 
 ## County-level Information
 
-| State | County | COVID-19 Community Level | Transmission Level |
+| State | County | COVID-19 Community Level | CDC Transmission Level |
 | :---: | :---: | :---: | :---: |
 ```{r county, results = 'asis'}
 # loop through 
