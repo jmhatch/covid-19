@@ -15,8 +15,8 @@ cdc_comm_ma %<>% dplyr::filter(!county %in% c('Dukes County, MA', 'Nantucket Cou
 # download CDC transmission levels
 cdc_tran_data = 'https://data.cdc.gov/api/views/8396-v7yb/rows.csv?accessType=DOWNLOAD' %>% url() %>% readr::read_csv()
 
-# # filter to get Massachusetts data
-# cdc_tran_ma = cdc_tran_data %>% dplyr::filter(state_name == 'Massachusetts' & report_date == max(report_date))
+# filter to get Massachusetts data
+cdc_tran_ma = cdc_tran_data %>% dplyr::filter(state_name == 'Massachusetts' & report_date == max(report_date))
 # 
 # # remove data where county is Martha's Vineyard or Nantucket
 # cdc_tran_ma %<>% dplyr::filter(!county_name %in% c('Dukes County', 'Nantucket County'))
@@ -28,4 +28,4 @@ cdc_tran_data = 'https://data.cdc.gov/api/views/8396-v7yb/rows.csv?accessType=DO
 #   left_join(cdc_tran_ma %>% dplyr::select(state_name, county_name, report_date, community_transmission_level) %>% rename(state = state_name, county = county_name, date_transmission = report_date), by = c('state', 'county'))
 
 # save data
-write.csv(cdc_tran_data, './data/cdc-ma-counties.csv', row.names = FALSE)
+write.csv(cdc_tran_ma, './data/cdc-ma-counties.csv', row.names = FALSE)
