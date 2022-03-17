@@ -45,6 +45,11 @@ jobs:
         run: |
           source('./scripts/process_covid_data_from_cdc.R')
         shell: Rscript {0}  
+        
+      - name: Render readme
+        run: |
+          source('./scripts/update_readme.R')
+        shell: Rscript {0}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
