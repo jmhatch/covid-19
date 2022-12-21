@@ -1,5 +1,5 @@
-Trends in COVID-19 for counties in the U.S. state of Massachusetts (updated on 2022-12-19)
-==========================================================================================
+Trends in COVID-19 for counties in the U.S. state of Massachusetts, excluding the Islands (updated on 2022-12-21)
+=================================================================================================================
 
 ![trends in covid-19 cases by county in the U.S. state of
 massachusetts](./images/ma_county_covid.png)
