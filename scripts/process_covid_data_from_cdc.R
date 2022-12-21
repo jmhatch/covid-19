@@ -1,6 +1,7 @@
 # load libraries
 library(dplyr)
 library(magrittr)
+# library(tidyr)
 
 # download CDC community levels
 cdc_comm_data = 'https://data.cdc.gov/api/views/3nnm-4jni/rows.csv?accessType=DOWNLOAD' %>% url() %>% read.csv(., header = TRUE)
