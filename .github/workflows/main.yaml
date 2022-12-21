@@ -28,7 +28,7 @@ jobs:
         
       - name: Install r dependencies
         run: |
-           install.packages(c("dplyr", "readr", "magrittr", "purrr", tidyr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown", "scales"))
+           install.packages(c("dplyr", "readr", "magrittr", "purrr", "tidyr", "ggplot2", "RcppRoll", "gghighlight", "rmarkdown", "scales"))
         shell: Rscript {0}
         
       - name: Process data from nyt 
