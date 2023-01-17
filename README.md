@@ -1,4 +1,4 @@
-Trends in COVID-19 for counties in the U.S. state of Massachusetts, excluding the Islands (updated on 2023-01-16)
+Trends in COVID-19 for counties in the U.S. state of Massachusetts, excluding the Islands (updated on 2023-01-17)
 =================================================================================================================
 
 ![trends in covid-19 cases by county in the U.S. state of
