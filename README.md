@@ -1,3 +1,5 @@
+UPDATE: This repo will no longer be updated and has been archived.
+
 Trends in COVID-19 for counties in the U.S. state of Massachusetts, excluding the Islands (updated on 2023-05-09)
 =================================================================================================================
 
